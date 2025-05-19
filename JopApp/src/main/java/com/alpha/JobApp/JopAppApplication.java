@@ -13,7 +13,6 @@ public class JopAppApplication {
 		 ApplicationContext context=SpringApplication.run(JopAppApplication.class, args);
 		jobrepo jobrepo=context.getBean(com.alpha.JobApp.repo.jobrepo.class);
 		System.out.println(jobrepo.findAll());
-		System.out.println("hello");
 
 	}
 
